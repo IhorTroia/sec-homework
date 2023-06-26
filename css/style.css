@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #d8d8d6;
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -----------------------header-------------------------------------- */
+
+.header {
+  background: #81a36b;
+  padding: 22px 0;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 155px;
+}
+
+.logo a {
+  color: #161616;
+  font-size: 36px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-list {
+  width: 825px;
+}
+
+.block-list ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-list ul li a {
+  font-size: 18px;
+  color: #161616;
+  line-height: 164.063%;
+}
+
+/* -------------------------------section 1---------------------------------------------------------- */
+
+h1 {
+  font-size: 62px;
+  margin: 178px 0 60px;
+  color: #161616;
+}
+
+p {
+  font-size: 18px;
+  color: #161616;
+}
+
+.flex {
+  display: flex;
+  flex: 1 1 49%;
+  gap: 30px;
+}
+
+.button {
+  margin-top: 40px;
+}
+
+.button button {
+  color: #161616;
+  background: #81a36b;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.button a {
+  color: #161616;
+  font-size: 18px;
+  padding: 15px 15px;
+  border: 1px solid #81a36b;
+}
+
+/* ------------------section 2--------------------------------------- */
+
+h2 {
+  font-size: 32px;
+  color: #000000;
+}
+
+.section2 {
+  width: 540px;
+  margin: 120px auto;
+  text-align: center;
+}
+
+/* ----------------------------section 3----------------------------------- */
+
+.bggreen {
+  background: #81a36b;
+  padding: 81px 0;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section3 span {
+  display: block;
+}
+
+.ta-center {
+  text-align: center;
+}
+/* ----------------------------section 4----------------------------------- */
+
+.section4 {
+  margin: 120px 0;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+/* --------------------------------section 5--------------------------- */
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  width: 350px;
+  background: #81a36b;
+  padding: 15px;
+  margin: 80px 0 120px;
+}
+
+.cards img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.cards p {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 23px;
+  padding-bottom: 40px;
+}
+
+/* --------------------------footer------------------------------------ */
+
+h3 {
+  font-size: 24px;
+  color: #161616;
+}
+
+.footer {
+  background: #81a36b;
+  padding: 79px 0;
+}
+
+.depart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dep1 span {
+  color: #161616;
+  font-size: 18px;
+  display: block;
+}
