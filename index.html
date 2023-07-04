@@ -2,53 +2,90 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amelia Flowers</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="nav">
-          <div class="logo">
-            <a href="#"><img src="img/Amelia F.png" alt="Amelia" /></a>
-          </div>
-          <div class="block-list">
-            <ul>
-              <li><a href="#">Главная</a></li>
-              <li><a href="#">О нас</a></li>
-              <li><a href="#">Как мы работаем</a></li>
-              <li><a href="#">Наши работы</a></li>
-              <li><a href="#">Контакты</a></li>
-            </ul>
-          </div>
-        </div>
+    <header class="header bg-green">
+      <div class="container header-container">
+        <a href="#">
+          <img src="images/logo.svg" alt="Amelia" width="155" height="28" />
+        </a>
+        <ul class="header-list">
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">О нас</a>
+          </li>
+          <li>
+            <a href="#">Как мы работаем</a>
+          </li>
+          <li>
+            <a href="#">Наши работы</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
       <section>
-        <div class="container flex">
-          <div>
+        <div class="container order-container">
+          <div class="order-inner">
             <h1>Amelia Flowers</h1>
             <p>
               Lorem Ipsum - это текст-"рыба", часто используемый в печати и
               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
               на латинице с начала XVI века.
             </p>
-            <div class="button">
-              <button style="margin-right: 65px">Заказать букет</button>
-              <a href="#">Помощь флориста</a>
+            <div class="order-btns">
+              <button class="btn bg-green">Заказать букет</button>
+              <a class="btn" href="#footer">Помощь флориста</a>
             </div>
           </div>
-          <div>
-            <img src="img/Rectangle 82.png" alt="flower" />
-          </div>
+          <img
+            src="images/flower-1.jpg"
+            alt="flower"
+            width="540"
+            height="670"
+          />
         </div>
       </section>
-      <section style="padding: 120px 0">
+      <section class="about">
+        <div class="container about-container">
+          <h2 class="subtitle">О нас</h2>
+          <p>
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века.
+          </p>
+        </div>
+      </section>
+      <section class="advantages bg-green">
         <div class="container">
-          <div class="section2">
-            <h2 style="margin-bottom: 60px">О НАС</h2>
+          <ul class="advantages-list">
+            <li>Лучшие цены</li>
+            <li>Индивидуальный подбор</li>
+            <li>Быстрая доставка</li>
+            <li>Всегда свежие цветы</li>
+            <li>Бонусная система</li>
+          </ul>
+        </div>
+      </section>
+      <section class="how-we-work">
+        <div class="container how-we-work-container">
+          <img
+            src="images/flower-2.png"
+            alt="flower"
+            width="540"
+            height="560"
+          />
+          <div class="how-we-work-inner">
+            <h2 class="subtitle">Как мы работаем</h2>
             <p>
               Lorem Ipsum - это текст-"рыба", часто используемый в печати и
               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
@@ -57,100 +94,70 @@
           </div>
         </div>
       </section>
-      <section class="bggreen">
+      <section class="works">
         <div class="container">
-          <div class="section3">
-            <div class="ta-center">
-              <a href="#"><img src="img/Layer 2.svg" alt="price" /></a>
-              <span style="margin-top: 20px">Лучшие цены</span>
-            </div>
-            <div class="ta-center">
-              <a href="#"><img src="img/Layer 3.svg" alt="individual" /></a>
-              <span style="margin-top: 20px">Индивидуальный подбор</span>
-            </div>
-            <div class="ta-center">
-              <a href="#"><img src="img/Layer 4.svg" alt="delivery" /></a>
-              <span style="margin-top: 20px">Быстрая доставка</span>
-            </div>
-            <div class="ta-center">
-              <a href="#"><img src="img/Layer 5.svg" alt="fresh" /></a>
-              <span style="margin-top: 20px">Всегда свежие цветы</span>
-            </div>
-            <div class="ta-center">
-              <a href="#"><img src="img/Layer 6.svg" alt="system" /></a>
-              <span style="margin-top: 20px">Бонусная система</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section style="padding: 120px 0">
-        <div class="container">
-          <div class="section4 flex">
-            <div><img src="img/glassvase.png" alt="glass" /></div>
-            <div class="work">
-              <h2>Как мы работаем</h2>
-              <p>
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
-                текстов на латинице с начала XVI века.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="container">
-          <h2 style="text-align: center">Наши работы</h2>
-          <div class="cards">
-            <div class="card">
-              <img
-                src="img/Rectangle 87.png"
-                alt="florenzia"
-                width="320px"
-                height="402px"
-              />
-              <p>Букет” Флоренция”</p>
-            </div>
-            <div class="card">
-              <img
-                src="img/Rectangle 89.png"
-                alt="florenzia"
-                width="320px"
-                height="402px"
-              />
-              <p>Букет” Флоренция”</p>
-            </div>
-            <div class="card">
-              <img
-                src="img/Rectangle 88.png"
-                alt="florenzia"
-                width="320px"
-                height="402px"
-              />
-              <p>Букет” Флоренция”</p>
-            </div>
-          </div>
+          <h2 class="subtitle">Наши работы</h2>
+          <ul class="works-list">
+            <li class="bg-green">
+              <a href="#">
+                <img
+                  src="images/works-1.jpg"
+                  alt="flower"
+                  width="320"
+                  height="400"
+                />
+              </a>
+              <h3><a href="#">Букет” Флоренция”</a></h3>
+            </li>
+            <li class="bg-green">
+              <a href="#">
+                <img
+                  src="images/work-2.jpg"
+                  alt="flower"
+                  width="320"
+                  height="400"
+                />
+              </a>
+              <h3><a href="#">Букет” Флоренция”</a></h3>
+            </li>
+            <li class="bg-green">
+              <a href="#">
+                <img
+                  src="images/work-3.jpg"
+                  alt="flower"
+                  width="320"
+                  height="400"
+                />
+              </a>
+              <h3><a href="#">Букет” Флоренция”</a></h3>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer bg-green" id="footer">
       <div class="container">
-        <div class="depart">
-          <div class="dep1">
-            <h3 style="margin-bottom: 40px">Контакты</h3>
-            <span>+380517328964</span>
-            <span style="margin: 20px 0">+380517328964</span>
-            <span>Харьков, ул Сумская 115</span>
+        <div class="footer-inner">
+          <div class="footer-item">
+            <h3>Контакты</h3>
+            <ul class="footer-item-contacts">
+              <li><a href="tel:+380517328964">+380517328964</a></li>
+              <li><a href="tel:+380517328964">+380517328964</a></li>
+              <li><address>Харьков, ул Сумская 115</address></li>
+            </ul>
           </div>
-          <div>
-            <img src="img/Amelia F.png" alt="Amelia" />
-          </div>
-          <div style="text-align: center" class="dep1">
-            <h3 style="margin-bottom: 40px">Мы в соц. сетях</h3>
-            <a href="#"><img src="img/иконци.svg" alt="icons" /></a>
+          <a href="#"
+            ><img
+              src="images/logo.svg"
+              alt="footer logo"
+              width="155"
+              height="28"
+          /></a>
+          <div class="footer-item">
+            <h3>Мы в соц. сетях</h3>
           </div>
         </div>
-        <div class="current-e">© 2023</div>
+        <div class="footer-bottom">@ 2023</div>
       </div>
     </footer>
   </body>
