@@ -240,6 +240,21 @@ body {
   color: #161616;
 }
 
+.icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon-list a {
+  display: block;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
 .footer-bottom {
   text-align: center;
 }
