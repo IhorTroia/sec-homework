@@ -24,6 +24,11 @@ body {
   color: #161616;
 }
 
+.img {
+  width: 50%;
+  height: auto;
+}
+
 .hidden {
   width: 0;
   height: 0;
@@ -75,6 +80,38 @@ body {
 .header-list > li a {
   color: #161616;
   text-decoration: none;
+}
+
+.burger {
+  width: 50px;
+  height: 35px;
+  border: 2px solid #161616;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  display: none;
+}
+
+.burger::before,
+.burger::after,
+.burger span {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  right: 10px;
+  height: 3px;
+  background: #161616;
+}
+
+.burger span {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.burger::after {
+  top: auto;
+  bottom: 5px;
 }
 
 /* -----Order----- */
@@ -257,4 +294,129 @@ body {
 
 .footer-bottom {
   text-align: center;
+}
+
+.footer-logo-mob {
+  text-align: center;
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    font-size: 16px;
+  }
+  .order-inner h1 {
+    font-size: 52px;
+  }
+  .subtitle {
+    font-size: 28px;
+  }
+  .advantages {
+    padding: 40px 0;
+  }
+  .advantages-list li {
+    padding-top: 50px;
+    background-size: 40px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 14px;
+  }
+  .header-list {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .order-inner h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .order-inner p {
+    margin-bottom: 20px;
+  }
+  .order-container {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .order-btns {
+    justify-content: center;
+    gap: 30px;
+  }
+  .btn {
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+  .order-img {
+    display: none;
+  }
+  .subtitle {
+    font-size: 22px;
+  }
+  .about {
+    padding: 30px 0;
+  }
+  .about-container h2 {
+    margin-bottom: 30px;
+  }
+  .advantages-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .advantages {
+    padding: 20px 0;
+  }
+  .advantages-list li {
+    padding-top: 30px;
+    background-size: 25px;
+    font-size: 12px;
+  }
+  .how-we-work {
+    padding: 30px 0;
+  }
+  .how-we-work-container {
+    display: block;
+    text-align: center;
+  }
+  .how-we-work-inner h2 {
+    margin-bottom: 30px;
+  }
+  .works {
+    padding-bottom: 30px;
+  }
+  .works h2 {
+    margin-bottom: 20px;
+  }
+  .works-list {
+    display: block;
+  }
+  .works-list li {
+    width: 250px;
+    margin: 15px auto;
+  }
+  .footer {
+    padding: 30px 0;
+  }
+  .footer-item h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .footer-item-contacts li {
+    margin-bottom: 10px;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .footer-logo-mob {
+    display: block;
+  }
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
 }
